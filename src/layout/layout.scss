@@ -1,0 +1,17 @@
+@import '../scss/mixin.scss';
+@import '../scss/variable.scss';
+
+.main-wraper {
+    @include flex();
+    height : 100vh;
+
+    .sidebar-wraper{
+        height:inherit;
+        width: 40px;
+    }
+
+    .content-wraper{
+        width: calc(100% - 40px);
+    }
+}
+

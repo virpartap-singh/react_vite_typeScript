@@ -1,0 +1,12 @@
+@import "./variable.scss";
+
+@mixin flex(){
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin flex-center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

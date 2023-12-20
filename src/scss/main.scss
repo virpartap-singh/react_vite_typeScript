@@ -1,0 +1,32 @@
+@import "./mixin.scss";
+@import "./variable.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+    display: initial !important;
+    min-width: initial !important;
+    background-color: $body-background-color;
+}
+
+* {
+    box-sizing: border-box;
+    text-transform: none;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 5px;
+    background-color: $scroll-bar-color;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    width: 5px;
+    height: 5px;
+}
